@@ -1,0 +1,48 @@
+.custom-modal {
+  .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &.show .modal-dialog {
+    transform: scale(1);
+  }
+}
+
+.custom-modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: none;
+}
+
+.custom-modal-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.custom-modal-body {
+  padding: 2rem;
+}
+
+.task-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.task-description {
+  margin-bottom: 2rem;
+}
+
+.custom-modal-footer {
+  border-top: none;
+}
+
+.custom-modal-close-button {
+  background-color: #dc3545;
+  border: none;
+  &:hover {
+    background-color: #c82333;
+  }
+}
